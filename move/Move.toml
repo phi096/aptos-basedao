@@ -1,0 +1,22 @@
+[package]
+name = "basedao"
+version = "1.0.0"
+authors = []
+
+[addresses]
+# basedao_addr        = '_'
+# token_addr          = '_'
+# fee_receiver_addr   = '_'
+basedao_addr       = '0xfb5987bdd1ca5ce7f8148108e8c00e9bf33c78975f97d2eab5c85e0c545bcdfd'
+token_addr         = '0xfb5987bdd1ca5ce7f8148108e8c00e9bf33c78975f97d2eab5c85e0c545bcdfd'
+fee_receiver_addr  = '0xfb5987bdd1ca5ce7f8148108e8c00e9bf33c78975f97d2eab5c85e0c545bcdfd'
+
+[dev-addresses]
+# basedao_addr        = '0x111'
+# fee_receiver_addr   = '0x222'
+# token_addr          = '0x333'
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", rev = "mainnet", subdir = "aptos-move/framework/aptos-framework"}
+
+[dev-dependencies]
